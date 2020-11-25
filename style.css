@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+#container {
+    border: 1px solid grey;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    /* flex box, makes the things vertical*/
+    display: flex;
+    /* makes the bars upright and not upside down*/
+    align-items: flex-end;
+}
+
+#container div {
+    background-color: orange;
+    border: 1px solid grey; 
+    /* makes each flex indivudal take up one fraction of the available space*/
+    flex: 1;
+}
